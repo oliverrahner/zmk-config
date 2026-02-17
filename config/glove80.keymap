@@ -463,12 +463,12 @@
 
         layer_Noted_Base {
             bindings = <
-&kp F1      &kp F2       &kp F3       &kp F4     &kp F5                                                                                       &kp F6    &kp F7        &kp F8        &kp F9       &kp F10
-&kp GRAVE   &kp N1       &kp N2       &kp N3     &kp N4     &kp N5                                                                    &kp N6  &kp N7    &kp N8        &kp N9        &kp N0       &kp FSLH
-&kp ESC     &kp Z        &kp Y        &kp U      &lt 5 A    &kp Q                                                                     &kp P   &lt 6 B   &kp M         &kp L         &kp F        &kp MINUS
-&kp LALT    &mt LSHFT C  &mt LCTRL S  &lt 1 I    &lt 2 E    &kp O                                                                     &kp D   &lt 2 T   &lt 1 N       &mt RCTRL R   &mt RSHFT H  &mt LALT J
-&kp PSCRN   &kp V        &kp X        &kp RA(U)  &kp RA(A)  &kp RA(O)  &kp SPACE  &kp LGUI  &kp RALT    &kp K_APP  &kp RGUI  &kp TAB  &kp W   &kp G     &kp COMMA     &kp DOT       &kp K        &kp LALT
-&magic 9 0  &none        &kp RA(E)    &kp LALT   &kp TAB               &kp BSPC   &kp RET   &kp DEL     &kp RALT   &kp RET   &none            &kp BSLH  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE   &kp RCTRL
+&kp F1       &kp F2       &kp F3       &kp F4     &kp F5                                                                                       &kp F6    &kp F7        &kp F8        &kp F9       &kp F10
+&kp GRAVE    &kp N1       &kp N2       &kp N3     &kp N4     &kp N5                                                                    &kp N6  &kp N7    &kp N8        &kp N9        &kp N0       &kp FSLH
+&kp ESC      &kp Z        &kp Y        &kp U      &lt 5 A    &kp Q                                                                     &kp P   &lt 6 B   &kp M         &kp L         &kp F        &kp MINUS
+&kp LALT     &mt LSHFT C  &mt LCTRL S  &lt 1 I    &lt 2 E    &kp O                                                                     &kp D   &lt 2 T   &lt 1 N       &mt RCTRL R   &mt RSHFT H  &mt LALT J
+&kp PSCRN    &kp V        &kp X        &kp RA(U)  &kp RA(A)  &kp RA(O)  &kp SPACE  &kp LGUI  &kp RALT    &kp K_APP  &kp RGUI  &kp TAB  &kp W   &kp G     &kp COMMA     &kp DOT       &kp K        &kp LALT
+&magic 10 0  &none        &kp RA(E)    &kp LALT   &kp TAB               &kp BSPC   &kp RET   &kp DEL     &kp RALT   &kp RET   &none            &kp BSLH  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE   &kp RCTRL
             >;
         };
 
@@ -490,29 +490,29 @@
 &kp TAB       &kp PG_UP     &kp BSPC        &kp UP_ARROW    &kp DEL          &kp PG_DN                                                    &none        &kp N7        &kp N8        &kp N9        &kp KP_PLUS  &kp LS(MINUS)
 &none         &kp HOME      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END                                                      &none        &kp N4        &kp N5        &kp N6        &kp DOT      &kp SEMI
 &kp LSHFT     &kp ESC       &kp TAB         &kp INS         &kp RET          &kp LC(Z)  &trans  &trans  &trans    &trans  &trans  &trans  &kp LS(DOT)  &kp N1        &kp N2        &kp N3        &kp COMMA    &none
-&magic 9 0    &none         &none           &kp F11         &kp F12                     &trans  &trans  &trans    &trans  &trans  &trans               &kp N0        &kp KP_PLUS   &kp KP_MINUS  &none        &none
+&magic 10 0   &none         &none           &kp F11         &kp F12                     &trans  &trans  &trans    &trans  &trans  &trans               &kp N0        &kp KP_PLUS   &kp KP_MINUS  &none        &none
             >;
         };
 
         layer_Gaming_Noted {
             bindings = <
-&kp F1      &kp F2  &kp F3  &kp F4    &kp F5                                                                                    &kp F6    &kp F7        &kp F8        &kp F9      &kp F10
-&kp ESC     &kp N1  &kp N2  &kp N3    &kp N4   &kp N5                                                                   &kp N6  &kp N7    &kp N8        &kp N9        &kp N0      &kp FSLH
-&kp DOT     &kp Y   &kp Z   &kp U     &kp A    &kp Q                                                                    &kp P   &kp B     &kp M         &kp L         &kp F       &kp MINUS
-&kp TAB     &kp C   &kp S   &kp I     &kp E    &kp O                                                                    &kp D   &kp T     &kp N         &kp R         &kp H       &kp J
-&kp N0      &kp V   &kp X   &kp LBKT  &kp SQT  &kp SEMI  &kp SPACE  &kp N    &kp M      &kp PG_UP  &kp PG_DN  &kp LALT  &kp W   &kp G     &kp COMMA     &kp DOT       &kp K       &kp LALT
-&magic 9 0  &kp N6  &kp N7  &kp N8    &kp N9             &kp BSPC   &kp RET  &kp DEL    &kp HOME   &kp RET    &kp TAB           &kp BSLH  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &kp RCTRL
+&kp F1       &kp F2  &kp F3  &kp F4    &kp F5                                                                                    &kp F6    &kp F7        &kp F8        &kp F9      &kp F10
+&kp ESC      &kp N1  &kp N2  &kp N3    &kp N4   &kp N5                                                                   &kp N6  &kp N7    &kp N8        &kp N9        &kp N0      &kp FSLH
+&kp DOT      &kp Y   &kp Z   &kp U     &kp A    &kp Q                                                                    &kp P   &kp B     &kp M         &kp L         &kp F       &kp MINUS
+&kp TAB      &kp C   &kp S   &kp I     &kp E    &kp O                                                                    &kp D   &kp T     &kp N         &kp R         &kp H       &kp J
+&kp N0       &kp V   &kp X   &kp LBKT  &kp SQT  &kp SEMI  &kp SPACE  &kp N    &kp M      &kp PG_UP  &kp PG_DN  &kp LALT  &kp W   &kp G     &kp COMMA     &kp DOT       &kp K       &kp LALT
+&magic 10 0  &kp N6  &kp N7  &kp N8    &kp N9             &kp BSPC   &kp RET  &kp DEL    &kp HOME   &kp RET    &kp TAB           &kp BSLH  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &kp RCTRL
             >;
         };
 
         layer_Gaming_Noted_ue_to_w {
             bindings = <
-&kp F1      &kp F2  &kp F3  &kp F4  &kp F5                                                                                    &kp F6    &kp F7        &kp F8        &kp F9      &kp F10
-&kp ESC     &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                                    &kp N6  &kp N7    &kp N8        &kp N9        &kp N0      &kp FSLH
-&kp DOT     &kp Y   &kp Z   &kp U   &kp A   &kp Q                                                                     &kp P   &kp B     &kp M         &kp L         &kp F       &kp MINUS
-&kp TAB     &kp C   &kp S   &kp I   &kp E   &kp O                                                                     &kp D   &kp T     &kp N         &kp R         &kp H       &kp J
-&kp N0      &kp V   &kp X   &kp W   &kp G   &kp COMMA  &kp SPACE  &kp N    &kp M      &kp PG_UP  &kp PG_DN  &kp LALT  &kp W   &kp G     &kp COMMA     &kp DOT       &kp K       &kp LALT
-&magic 9 0  &kp N6  &kp N7  &kp N8  &kp N9             &kp BSPC   &kp RET  &kp DEL    &kp HOME   &kp RET    &kp TAB           &kp BSLH  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &kp RCTRL
+&kp F1       &kp F2  &kp F3  &kp F4  &kp F5                                                                                    &kp F6    &kp F7        &kp F8        &kp F9      &kp F10
+&kp ESC      &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                                    &kp N6  &kp N7    &kp N8        &kp N9        &kp N0      &kp FSLH
+&kp DOT      &kp Y   &kp Z   &kp U   &kp A   &kp Q                                                                     &kp P   &kp B     &kp M         &kp L         &kp F       &kp MINUS
+&kp TAB      &kp C   &kp S   &kp I   &kp E   &kp O                                                                     &kp D   &kp T     &kp N         &kp R         &kp H       &kp J
+&kp N0       &kp V   &kp X   &kp W   &kp G   &kp COMMA  &kp SPACE  &kp N    &kp M      &kp PG_UP  &kp PG_DN  &kp LALT  &kp W   &kp G     &kp COMMA     &kp DOT       &kp K       &kp LALT
+&magic 10 0  &kp N6  &kp N7  &kp N8  &kp N9             &kp BSPC   &kp RET  &kp DEL    &kp HOME   &kp RET    &kp TAB           &kp BSLH  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &kp RCTRL
             >;
         };
 
@@ -540,12 +540,12 @@
 
         layer_QWERTZ {
             bindings = <
-&kp F1      &kp F2    &kp F3   &kp F4    &kp F5                                                                                       &kp F6  &kp F7     &kp F8    &kp F9    &kp F10
-&kp EQUAL   &kp N1    &kp N2   &kp N3    &kp N4     &kp N5                                                                    &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB     &kp Q     &kp W    &kp E     &kp R      &kp T                                                                     &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC     &kp A     &kp S    &kp D     &kp F      &kp G                                                                     &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp GRAVE   &kp Z     &kp X    &kp C     &kp V      &kp B   &kp LSHFT  &kp LCTRL  &lower      &kp LGUI  &kp RCTRL  &kp RSHFT  &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp PG_UP
-&magic 9 0  &kp HOME  &kp END  &kp LEFT  &kp RIGHT          &kp BSPC   &kp DEL    &kp LALT    &kp RALT  &kp RET    &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &kp PG_DN
+&kp F1       &kp F2    &kp F3   &kp F4    &kp F5                                                                                       &kp F6  &kp F7     &kp F8    &kp F9    &kp F10
+&kp EQUAL    &kp N1    &kp N2   &kp N3    &kp N4     &kp N5                                                                    &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB      &kp Q     &kp W    &kp E     &kp R      &kp T                                                                     &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC      &kp A     &kp S    &kp D     &kp F      &kp G                                                                     &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&kp GRAVE    &kp Z     &kp X    &kp C     &kp V      &kp B   &kp LSHFT  &kp LCTRL  &lower      &kp LGUI  &kp RCTRL  &kp RSHFT  &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp PG_UP
+&magic 10 0  &kp HOME  &kp END  &kp LEFT  &kp RIGHT          &kp BSPC   &kp DEL    &kp LALT    &kp RALT  &kp RET    &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
 
@@ -556,29 +556,29 @@
 &trans        &none         &none           &kp UP_ARROW    &none            &kp END                                                      &kp LS(N0)  &kp KP_N7   &kp KP_N8     &kp KP_N9     &kp KP_MINUS     &kp SCROLLLOCK
 &trans        &none         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_UP                                                    &kp LS(N5)  &kp KP_N4   &kp KP_N5     &kp KP_N6     &kp KP_PLUS      &none
 &trans        &kp K_APP     &none           &kp F11         &kp F12          &kp PG_DN  &trans  &trans  &to 7     &trans  &trans  &trans  &kp COMMA   &kp KP_N1   &kp KP_N2     &kp KP_N3     &kp KP_ENTER     &trans
-&magic 9 0    &kp CAPS      &kp INS         &kp F11         &kp F12                     &trans  &trans  &trans    &trans  &trans  &trans              &kp KP_N0   &kp KP_N0     &kp KP_DOT    &kp KP_ENTER     &trans
-            >;
-        };
-
-        layer_Magic {
-            bindings = <
-&bt BT_CLR   &bt BT_CLR_ALL   &none            &none            &none                                                                                                  &none   &none  &none  &none  &none
-&none        &none            &none            &none            &none            &none                                                                          &none  &none   &none  &none  &none  &none
-&none        &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                                                &none  &none   &none  &none  &none  &sys_reset
-&bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                                &to 3  &to 4   &none  &none  &none  &bootloader
-&sys_reset   &none            &none            &none            &none            &none            &bt_2  &bt_3  &studio_unlock    &studio_unlock  &none  &none  &to 0  &to 7   &none  &none  &none  &none
-&none        &none            &none            &none            &none                             &bt_0  &bt_1  &out OUT_USB      &none           &none  &none         &to 10  &none  &none  &none  &none
+&magic 10 0   &kp CAPS      &kp INS         &kp F11         &kp F12                     &trans  &trans  &trans    &trans  &trans  &trans              &kp KP_N0   &kp KP_N0     &kp KP_DOT    &kp KP_ENTER     &trans
             >;
         };
 
         qwerty_gaming_fps {
             bindings = <
-&kp F1      &kp F2    &kp F3   &kp F4    &kp F5                                                                                       &kp F6  &kp F7     &kp F8    &kp F9    &kp F10
-&kp EQUAL   &kp N1    &kp N2   &kp N3    &kp N4     &kp N5                                                                    &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB     &none     &kp Q    &kp W     &kp E      &kp R                                                                     &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&kp LCTRL   &none     &kp A    &kp S     &kp D      &kp F                                                                     &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT   &kp Z     &kp Z    &kp X     &kp C      &kp V   &kp LSHFT  &kp LCTRL  &lower      &kp LGUI  &kp RCTRL  &kp RSHFT  &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp PG_UP
-&magic 9 0  &kp HOME  &kp END  &kp LEFT  &kp RIGHT          &kp SPACE  &kp DEL    &kp LALT    &kp RALT  &kp RET    &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &kp PG_DN
+&kp F1       &kp F2    &kp F3   &kp F4    &kp F5                                                                                       &kp F6  &kp F7     &kp F8    &kp F9    &kp F10
+&kp EQUAL    &kp N1    &kp N2   &kp N3    &kp N4     &kp N5                                                                    &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB      &none     &kp Q    &kp W     &kp E      &kp R                                                                     &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&kp LCTRL    &none     &kp A    &kp S     &kp D      &kp F                                                                     &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT    &none     &kp Z    &kp X     &kp C      &kp V   &kp LSHFT  &kp LCTRL  &lower      &kp LGUI  &kp RCTRL  &kp RSHFT  &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp PG_UP
+&magic 10 0  &kp HOME  &kp END  &kp LEFT  &kp RIGHT          &kp SPACE  &kp DEL    &kp LALT    &kp RALT  &kp RET    &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &kp PG_DN
+            >;
+        };
+
+        layer_Magic {
+            bindings = <
+&bt BT_CLR   &bt BT_CLR_ALL   &none            &none            &none                                                                                                  &none  &none  &none  &none  &none
+&none        &none            &none            &none            &none            &none                                                                          &none  &none  &none  &none  &none  &none
+&none        &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                                                &none  &none  &none  &none  &none  &sys_reset
+&bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                                &to 3  &to 4  &none  &none  &none  &bootloader
+&sys_reset   &none            &none            &none            &none            &none            &bt_2  &bt_3  &studio_unlock    &studio_unlock  &none  &none  &to 0  &to 7  &none  &none  &none  &none
+&none        &none            &none            &none            &none                             &bt_0  &bt_1  &out OUT_USB      &none           &none  &none         &to 9  &none  &none  &none  &none
             >;
         };
     };
