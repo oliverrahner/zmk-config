@@ -67,7 +67,9 @@
 #define LAYER_Mouselayer 6
 #define LAYER_QWERTZ 7
 #define LAYER_Lower 8
+
 #define LAYER_Magic 9
+#define LAYER_QWERTY_GAMING_FPS 10
 
 /* To deal with the situation where there is no Lower layer, to keep &lower happy */
 
@@ -560,7 +562,7 @@
             >;
         };
 
-        qwerty_gaming_fps {
+        layer_QWERTY_GAMING_FPS {
             bindings = <
 &kp F1       &kp F2    &kp F3   &kp F4    &kp F5                                                                                       &kp F6  &kp F7     &kp F8    &kp F9    &kp F10
 &kp EQUAL    &kp N1    &kp N2   &kp N3    &kp N4     &kp N5                                                                    &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
