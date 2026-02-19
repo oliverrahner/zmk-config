@@ -67,8 +67,9 @@
 #define LAYER_Mouselayer 6
 #define LAYER_QWERTZ 7
 #define LAYER_Lower 8
-#define LAYER_Magic 9
-#define LAYER_QWERTY_GAMING_FPS 10
+#define LAYER_QWERTY_GAMING_FPS 9
+#define LAYER_QWERTY_HRM 10
+#define LAYER_Magic 11
 
 /* To deal with the situation where there is no Lower layer, to keep &lower happy */
 
@@ -572,7 +573,7 @@
             >;
         };
 
-        layer_QWERTY_hrm {
+        layer_QWERTY_HRM {
             bindings = <
 &kp F1       &kp F2       &kp F3       &kp F4    &kp F5                                                                                  &kp F6    &kp F7        &kp F8        &kp F9               &kp F10
 &kp GRAVE    &kp N1       &kp N2       &kp N3    &kp N4   &kp N5                                                                 &kp N6  &kp N7    &kp N8        &kp N9        &kp N0               &kp FSLH
@@ -590,7 +591,7 @@
 &none        &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                                                &none  &none  &none  &none  &none  &sys_reset
 &bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                                &to 3  &to 4  &none  &none  &none  &bootloader
 &sys_reset   &none            &none            &none            &none            &none            &bt_2  &bt_3  &studio_unlock    &studio_unlock  &none  &none  &to 0  &to 7  &none  &none  &none  &none
-&none        &none            &none            &none            &none                             &bt_0  &bt_1  &out OUT_USB      &none           &none  &none         &to 9  &none  &none  &none  &none
+&none        &none            &none            &none            &none                             &bt_0  &bt_1  &out OUT_USB      &none           &none  &none         &to 9  &to 10  &none  &none  &none
             >;
         };
     };
