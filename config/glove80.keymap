@@ -446,6 +446,105 @@
                 <&macro_release>,
                 <&kp LALT>;
         };
+
+        ra_e: ra_e {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings =
+                <&macro_press>, <&kp RALT>,
+                <&macro_tap>, <&kp E>,
+                <&macro_release>, <&kp RALT>;
+        };
+
+        ls_ra_n2: ls_ra_n2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings =
+                <&macro_press>, <&kp LSHFT &kp RALT>,
+                <&macro_tap>, <&kp N2>,
+                <&macro_release>, <&kp LSHFT &kp RALT>;
+        };
+
+        ls_ra_n3: ls_ra_n3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings =
+                <&macro_press>, <&kp LSHFT &kp RALT>,
+                <&macro_tap>, <&kp N3>,
+                <&macro_release>, <&kp LSHFT &kp RALT>;
+        };
+
+        ra_semi: ra_semi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings =
+                <&macro_press>, <&kp RALT>,
+                <&macro_tap>, <&kp SEMI>,
+                <&macro_release>, <&kp RALT>;
+        };
+
+        ra_n5: ra_n5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings =
+                <&macro_press>, <&kp RALT>,
+                <&macro_tap>, <&kp N5>,
+                <&macro_release>, <&kp RALT>;
+        };
+
+        eszett: eszett {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings =
+                <&macro_press>, <&kp RALT>,
+                <&macro_tap>, <&kp S>,
+                <&macro_release>, <&kp RALT>;
+        };
+
+        umlaut_a: umlaut_a {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings =
+                <&macro_press>, <&kp RALT>,
+                <&macro_tap>, <&kp A>,
+                <&macro_release>, <&kp RALT>;
+        };
+
+        umlaut_u: umlaut_u {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings =
+                <&macro_press>, <&kp RALT>,
+                <&macro_tap>, <&kp U>,
+                <&macro_release>, <&kp RALT>;
+        };
+
+        umlaut_o: umlaut_o {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <10>;
+            bindings =
+                <&macro_press>, <&kp RALT>,
+                <&macro_tap>, <&kp O>,
+                <&macro_release>, <&kp RALT>;
+        };
     };
 };
 
@@ -467,21 +566,21 @@
             bindings = <
 &kp F1       &kp F2       &kp F3       &kp F4     &kp F5                                                                                       &kp F6    &kp F7        &kp F8        &kp F9       &kp F10
 &kp GRAVE    &kp N1       &kp N2       &kp N3     &kp N4     &kp N5                                                                    &kp N6  &kp N7    &kp N8        &kp N9        &kp N0       &kp FSLH
-&kp ESC      &kp Z        &kp Y        &kp U      &lt 5 A    &kp Q                                                                     &kp P   &lt 6 B   &kp M         &kp L         &kp F        &kp MINUS
+&kp ESC      &kp Z        &kp Y        &kp U      &lt 5 A    &kp Q                                                                     &kp P   &lt 6 B   &kp M         &kp L         &kp F        &eszett
 &kp LALT     &mt LSHFT C  &mt LCTRL S  &lt 1 I    &lt 2 E    &kp O                                                                     &kp D   &lt 2 T   &lt 1 N       &mt RCTRL R   &mt RSHFT H  &mt LALT J
-&kp PSCRN    &kp V        &kp X        &kp RA(U)  &kp RA(A)  &kp RA(O)  &kp SPACE  &kp LGUI  &kp RALT    &kp K_APP  &kp RGUI  &kp TAB  &kp W   &kp G     &kp COMMA     &kp DOT       &kp K        &kp LALT
-&magic 11 0  &none        &kp RA(E)    &kp LALT   &kp TAB               &kp BSPC   &kp RET   &kp DEL     &kp RALT   &kp RET   &none            &kp BSLH  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE   &kp RCTRL
+&kp PSCRN    &kp V        &kp X        &umlaut_u  &umlaut_a  &umlaut_o  &kp SPACE  &kp LGUI  &kp RALT    &kp K_APP  &kp RGUI  &kp TAB  &kp W   &kp G     &kp COMMA     &kp DOT       &kp K        &kp LALT
+&magic 11 0  &none        &ra_e    &kp LALT   &kp TAB               &kp BSPC   &kp RET   &kp DEL     &kp RALT   &kp RET   &none            &kp BSLH  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE   &kp RCTRL
             >;
         };
 
         layer_Noted_3 {
             bindings = <
 &trans  &trans          &trans          &trans          &trans                                                                                                               &trans         &trans       &trans        &trans        &trans
-&trans  &superscript_1  &kp LS(RA(N2))  &kp LS(RA(N3))  &double_angle_quote_open  &double_angle_quote_close                                                    &cent         &Yen_currency  &kp COMMA    &trans        &trans        &kp RA(SEMI)
+&trans  &superscript_1  &ls_ra_n2  &ls_ra_n3  &double_angle_quote_open  &double_angle_quote_close                                                    &cent         &Yen_currency  &kp COMMA    &trans        &trans        &ra_semi
 &trans  &kp DOT         &kp LS(FSLH)    &kp LBKT        &kp RBKT                  &kp LS(N6)                                                                   &kp LS(N1)    &kp LS(COMMA)  &kp LS(DOT)  &kp EQUAL     &kp LS(N7)    &kp LS(N2)
 &trans  &kp BSLH        &kp FSLH        &kp LS(LBKT)    &kp LS(RBKT)              &kp LS(N8)                                                                   &kp LS(FSLH)  &kp LS(N9)     &kp LS(N0)   &kp MINUS     &kp LS(SEMI)  &trans
 &trans  &kp LS(N3)      &kp BSLH        &kp LS(N4)      &kp LS(BSLH)              &kp LS(GRAVE)              &trans  &trans  &trans    &trans  &trans  &trans  &kp GRAVE     &kp LS(EQUAL)  &kp LS(N5)   &kp LS(SQT)   &kp SQT       &kp SEMI
-&trans  &trans          &kp RA(N5)      &cent           &kp SLCK                                             &trans  &trans  &trans    &trans  &trans  &trans                &kp KP_N0      &kp KP_PLUS  &kp KP_MINUS  &trans        &trans
+&trans  &trans          &ra_n5      &cent           &kp SLCK                                             &trans  &trans  &trans    &trans  &trans  &trans                &kp KP_N0      &kp KP_PLUS  &kp KP_MINUS  &trans        &trans
             >;
         };
 
@@ -580,7 +679,7 @@
 &kp ESC      &kp Q        &kp W        &kp E     &lt 5 R  &kp T                                                                  &kp Y   &lt 6 U   &kp I         &kp O         &kp P                &kp LBKT
 &kp LALT     &mt LSHFT A  &mt LCTRL S  &lt 1 D   &lt 2 F  &kp G                                                                  &kp H   &lt 2 J   &lt 1 K       &mt RCTRL L   &mt RSHFT SEMICOLON  &mt LALT SQT
 &kp PSCRN    &kp Z        &kp X        &kp C     &kp V    &kp B   &kp SPACE  &kp LGUI  &kp RALT    &kp K_APP  &kp RGUI  &kp TAB  &kp N   &kp M     &kp COMMA     &kp DOT       &kp FSLH             &kp SPACE
-&magic 11 0  &none        &kp RA(E)    &kp LALT  &kp TAB          &kp BSPC   &kp RET   &kp DEL     &kp RALT   &kp RET   &none            &kp BSLH  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE           &kp RCTRL
+&magic 11 0  &none        &ra_e    &kp LALT  &kp TAB          &kp BSPC   &kp RET   &kp DEL     &kp RALT   &kp RET   &none            &kp BSLH  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE           &kp RCTRL
             >;
         };
 
